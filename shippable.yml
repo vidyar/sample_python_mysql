@@ -25,5 +25,4 @@ script:
   - which python && coverage run --branch project-test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml project-test.py
   - echo $foo
-  - echo $name
-  - echo $bar
+  
