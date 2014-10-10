@@ -26,3 +26,4 @@ script:
   - which python && coverage xml -o shippable/codecoverage/coverage.xml project-test.py
   - echo $foo
   
+cache: true
