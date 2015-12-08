@@ -4,7 +4,7 @@ import sys
 
 class Mysql():
     def __init__(self):
-        self.con = mdb.connect('127.0.0.1', 'root', 'root', 'project-test')
+        self.con = mdb.connect('127.0.0.1', 'root', '', 'project-test')
 
     def populate(self):
         try:
